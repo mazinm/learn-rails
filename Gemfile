@@ -15,13 +15,15 @@ end
 
 # learn-rails
 gem 'activerecord-tableless'
-gem 'compass-rails'
 gem 'figaro'
 gem 'gibbon'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
-gem 'zurb-foundation'
+group :assets do
+  gem 'compass-rails'
+  gem 'zurb-foundation'
+end
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
