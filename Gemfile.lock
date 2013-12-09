@@ -177,7 +177,7 @@ DEPENDENCIES
   activerecord-tableless
   better_errors
   coffee-rails (~> 4.0.0)
-  compass-rails (~> 2.0.alpha.0)
+  compass-rails
   figaro
   gibbon
   google_drive
